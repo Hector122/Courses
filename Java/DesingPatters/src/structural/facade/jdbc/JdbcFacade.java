@@ -1,8 +1,7 @@
-package structural.facade;
+package structural.facade.jdbc;
 
 import creational.singleton.DbSingleton;
 
-import javax.print.DocFlavor;
 import java.sql.Connection;
 import java.sql.ResultSet;
 import java.sql.Statement;

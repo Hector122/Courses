@@ -1,4 +1,4 @@
-package structural.facade;
+package structural.facade.jdbc;
 
 import java.util.List;
 

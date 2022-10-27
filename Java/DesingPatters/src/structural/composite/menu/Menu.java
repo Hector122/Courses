@@ -1,4 +1,4 @@
-package structural.composite;
+package structural.composite.menu;
 
 import java.util.Iterator;
 

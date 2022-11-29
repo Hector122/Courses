@@ -46,3 +46,6 @@
 [submodule "Android/Nanodegree/andfun-kotlin-sleep-tracker"]
 	path = Android/Nanodegree/andfun-kotlin-sleep-tracker
 	url = git@github.com:Hector122/andfun-kotlin-sleep-tracker.git
+[submodule "Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview"]
+	path = Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview
+	url = git@github.com:Hector122/andfun-kotlin-sleep-tracker-with-recyclerview.git

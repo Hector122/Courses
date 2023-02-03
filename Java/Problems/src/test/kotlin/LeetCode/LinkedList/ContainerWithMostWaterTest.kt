@@ -14,7 +14,7 @@ class ContainerWithMostWaterTest {
      * In this case, the max area of water (blue section) the container can contain is 49.
      */
     @Test
-    @DisplayName("Input: height = [1,8,6,2,5,4,8,3,7]")
+    //@DisplayName("Input: height = [1,8,6,2,5,4,8,3,7]")
     fun  test_00(){
         //given
         val height = intArrayOf(1,8,6,2,5,4,8,3,7)

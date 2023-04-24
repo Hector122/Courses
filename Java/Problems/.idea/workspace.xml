@@ -22,43 +22,170 @@
     <select />
   </component>
   <component name="ChangeListManager">
-<<<<<<< HEAD
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Others/MaxSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TwoSum.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/ValidAnagram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/KotlinCodeTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/TwoSumTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/kotlin/ValidAnagramTest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-notifications" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-notifications" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/executionHistory/executionHistory.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileChanges/last-build.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileContent/fileContent.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/fileHashes.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/fileHashes/resourceHashesCache.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/gc.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/classAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/jarAnalysis.bin" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/javaCompile.lock" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/6.3/javaCompile/taskHistory.bin" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/cache.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/outputFiles.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/AddTwoNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/AddTwoNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/ListNode.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/AddTwoNumbers/ListNode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/BuyAndSellStock.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/BuyAndSellStock.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/ContainsDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/GroupsOfAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/GroupsOfAnagram.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/LongestSubstring.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/LongestSubstring.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/TopKFrequentElements.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/TopKFrequentElements.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/TwoSum.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/TwoSum.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/ValidAnagram.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/ValidAnagram.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/LeetCode/ValidPalindrome.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/LeetCode/ValidPalindrome.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/CompresionString.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/CompresionString.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/Factorial.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/Factorial.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/FriendNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/FriendNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/AddTwoNumbers/AddTwoNumbersTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/AddTwoNumbers/AddTwoNumbersTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/IfStringIsSubstringOfAnother.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/IfStringIsSubstringOfAnother.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/Others/NextGreaterNumberWithSameDigits.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/Others/NextGreaterNumberWithSameDigits.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/BuyAndSellStockTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/BuyAndSellStockTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/ContainsDuplicateTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/ContainsDuplicateTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/GroupsOfAnagramTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/GroupsOfAnagramTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/LongestSubstringTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/LongestSubstringTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/TopKFrequentElementsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/TopKFrequentElementsTest.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/TwoSumTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/TwoSumTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/ValidAnagramTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/ValidAnagramTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/LeetCode/ValidPalindromeTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/LeetCode/ValidPalindromeTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Others/FactorialTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Others/FactorialTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Others/IfStringIsSubstringOfAnotherTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Others/IfStringIsSubstringOfAnotherTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/test/Others/NextGreaterNumberWithSameDigitsTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/test/Others/NextGreaterNumberWithSameDigitsTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/ContainsDuplicate.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/ContainsDuplicate.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Problems.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/main/META-INF/Problems.kotlin_module" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/kotlin/test/META-INF/Problems.kotlin_module" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/kotlin/test/META-INF/Problems.kotlin_module" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.keystream.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab.values.at" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/java-sources-proto-map.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i.len" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileKotlin/last-build.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/build-history.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/inputs/source-to-output.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/proto.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/file-to-id.tab_i" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/id-to-file.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.keystream.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.len" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab.values.at" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/caches-jvm/lookups/lookups.tab_i" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" beforeDir="false" afterPath="$PROJECT_DIR$/build/kotlin/compileTestKotlin/last-build.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" beforeDir="false" afterPath="$PROJECT_DIR$/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/LeetCode/ValidAnagramTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LeetCode/ValidAnagramTest.java" afterDir="false" />
     </list>
-=======
-    <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,8 +211,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Kotlin Class" />
         <option value="Class" />
+        <option value="Kotlin Class" />
         <option value="JUnit5 Test Class" />
       </list>
     </option>
@@ -93,12 +220,8 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="MavenImportPreferences">
-    <option name="generalSettings">
-      <MavenGeneralSettings>
-        <option name="mavenHome" value="$APPLICATION_HOME_DIR$/plugins/maven/lib/maven3" />
-      </MavenGeneralSettings>
-    </option>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="28cGCgMOPu6oHgg2iC2VkZcqvgB" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -106,41 +229,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">
-    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
-    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
-    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
-    <property name="last_directory_selection" value="$PROJECT_DIR$/src/test/java/LeetCode" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.project.gradle" />
-  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;last_directory_selection&quot;: &quot;/Users/hector/Workspace/Courses/Java/Problems/src/test/kotlin&quot;
+  }
+}</component>
   <component name="RecentsManager">
-    <key name="CreateTestDialog.RecentsKey">
-      <recent name="Others" />
-      <recent name="LeetCode" />
-      <recent name="Others" />
-      <recent name="" />
-    </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="Others" />
+      <recent name="LeetCode" />
+      <recent name="Others" />
+    </key>
   </component>
-<<<<<<< HEAD
-  <component name="RunManager" selected="JUnit.NextGreaterNumberWithSameDigitsTest">
-    <configuration name="BuyAndSellStockTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-=======
-  <component name="RunManager" selected="JUnit.ValidPalindromeTest">
+  <component name="RunManager" selected="JUnit.ValidAnagramTest.aacc_and_ccac_are_invalid">
+    <configuration name="TwoSumTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Problems.test" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TwoSumTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidAnagramTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -148,106 +270,29 @@
     </configuration>
     <configuration name="ValidAnagramTest.aacc_and_ccac_are_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidAnagramTest" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
       <option name="METHOD_NAME" value="aacc_and_ccac_are_invalid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidPalindromeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
+    <configuration name="ValidAnagramTest.anagram_and_nagaram_are_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidPalindromeTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ValidPalindromeTest.isPalindrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Problems.test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="LeetCode.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidPalindromeTest" />
-      <option name="METHOD_NAME" value="isPalindrome" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
+      <option name="METHOD_NAME" value="anagram_and_nagaram_are_valid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-<<<<<<< HEAD
-    <configuration name="NextGreaterNumberWithSameDigitsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Problems_test" />
-=======
-    <configuration name="ValidPalindromeTest.isPalindrome_race_a_car" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ValidAnagramTest.rat_and_cat_are_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-<<<<<<< HEAD
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.NextGreaterNumberWithSameDigitsTest" />
-      <option name="TEST_OBJECT" value="class" />
-=======
-      <option name="PACKAGE_NAME" value="LeetCode" />
-      <option name="MAIN_CLASS_NAME" value="LeetCode.ValidPalindromeTest" />
-      <option name="METHOD_NAME" value="isPalindrome_race_a_car" />
-      <option name="TEST_OBJECT" value="method" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreaterNumberWithSameDigitsTest.solution_input_218765_output_251678" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Problems_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.NextGreaterNumberWithSameDigitsTest" />
-      <option name="METHOD_NAME" value="solution_input_218765_output_251678" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="NextGreaterNumberWithSameDigitsTest.solution_input_4321_output_noPossible" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Problems_test" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Others.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="Others" />
-      <option name="MAIN_CLASS_NAME" value="Others.NextGreaterNumberWithSameDigitsTest" />
-      <option name="METHOD_NAME" value="solution_input_4321_output_noPossible" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
+      <option name="METHOD_NAME" value="rat_and_cat_are_invalid" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -255,19 +300,11 @@
     </configuration>
     <recent_temporary>
       <list>
-<<<<<<< HEAD
-        <item itemvalue="JUnit.NextGreaterNumberWithSameDigitsTest" />
-        <item itemvalue="JUnit.NextGreaterNumberWithSameDigitsTest.solution_input_218765_output_251678" />
-        <item itemvalue="JUnit.NextGreaterNumberWithSameDigitsTest.solution_input_4321_output_noPossible" />
-        <item itemvalue="JUnit.BuyAndSellStockTest" />
-        <item itemvalue="JUnit.LongestSubstringTest" />
-=======
-        <item itemvalue="JUnit.ValidPalindromeTest" />
-        <item itemvalue="JUnit.ValidPalindromeTest.isPalindrome" />
-        <item itemvalue="JUnit.ValidPalindromeTest.isPalindrome_race_a_car" />
-        <item itemvalue="JUnit.ValidAnagramTest" />
         <item itemvalue="JUnit.ValidAnagramTest.aacc_and_ccac_are_invalid" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
+        <item itemvalue="JUnit.ValidAnagramTest.rat_and_cat_are_invalid" />
+        <item itemvalue="JUnit.ValidAnagramTest.anagram_and_nagaram_are_valid" />
+        <item itemvalue="JUnit.ValidAnagramTest" />
+        <item itemvalue="JUnit.TwoSumTest" />
       </list>
     </recent_temporary>
   </component>
@@ -283,7 +320,7 @@
       </list>
     </option>
   </component>
-  <component name="SpellCheckerSettings" BundledDictionaries="0" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" Dictionaries="0" CorrectionsLimit="5" DefaultDictionary="application-level" UseSingleDictionary="true" />
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -302,166 +339,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State>
-              <option name="COLUMN_ORDER" />
-            </State>
+            <State />
           </value>
         </entry>
       </map>
     </option>
   </component>
-  <component name="WindowStateProjectService">
-<<<<<<< HEAD
-    <state x="576" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog" timestamp="1653756057983">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state x="576" y="337" key="#com.intellij.ide.util.projectWizard.JdkChooserPanel.MyDialog/0.0.1824.1080@0.0.1824.1080" timestamp="1653756057983" />
-    <state width="868" height="297" key="GridCell.Tab.0.bottom" timestamp="1653760638104">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state width="1878" height="407" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651781276616" />
-    <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1651508844176" />
-    <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-    <state width="868" height="297" key="GridCell.Tab.0.bottom/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
-    <state width="868" height="297" key="GridCell.Tab.0.center" timestamp="1653760638104">
-      <screen x="0" y="0" width="1824" height="1080" />
-=======
-    <state x="100" y="125" width="1720" height="778" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1652889501329">
-      <screen x="0" y="25" width="1920" height="978" />
-    </state>
-    <state x="100" y="125" width="1720" height="778" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652889501329" />
-    <state x="699" y="301" key="#com.intellij.ide.util.TreeClassChooserDialog" timestamp="1652835902350">
-      <screen x="0" y="25" width="1920" height="978" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-    </state>
-    <state x="699" y="301" key="#com.intellij.ide.util.TreeClassChooserDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652835902350" />
-    <state width="1878" height="326" key="GridCell.Tab.0.bottom" timestamp="1653963747411">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
-    <state width="1878" height="407" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141409" />
-    <state width="1878" height="409" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-    <state width="1878" height="209" key="GridCell.Tab.0.bottom/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816166" />
-    <state width="1750" height="378" key="GridCell.Tab.0.bottom/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142935" />
-    <state width="1878" height="326" key="GridCell.Tab.0.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747411" />
-    <state width="1878" height="326" key="GridCell.Tab.0.center" timestamp="1653963747411">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
-    <state width="1878" height="407" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141408" />
-    <state width="1878" height="409" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-<<<<<<< HEAD
-    <state width="868" height="297" key="GridCell.Tab.0.center/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
-    <state width="868" height="297" key="GridCell.Tab.0.left" timestamp="1653760638104">
-      <screen x="0" y="0" width="1824" height="1080" />
-=======
-    <state width="1878" height="209" key="GridCell.Tab.0.center/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816166" />
-    <state width="1750" height="378" key="GridCell.Tab.0.center/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142935" />
-    <state width="1878" height="326" key="GridCell.Tab.0.center/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747411" />
-    <state width="1878" height="326" key="GridCell.Tab.0.left" timestamp="1653963747410">
-      <screen x="0" y="25" width="1792" height="1095" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
-    <state width="1878" height="407" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141407" />
-    <state width="1878" height="409" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614265" />
-<<<<<<< HEAD
-    <state width="868" height="297" key="GridCell.Tab.0.left/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
-    <state width="868" height="297" key="GridCell.Tab.0.right" timestamp="1653760638104">
-      <screen x="0" y="0" width="1824" height="1080" />
-=======
-    <state width="1878" height="209" key="GridCell.Tab.0.left/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816165" />
-    <state width="1750" height="378" key="GridCell.Tab.0.left/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142934" />
-    <state width="1878" height="326" key="GridCell.Tab.0.left/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747410" />
-    <state width="1878" height="326" key="GridCell.Tab.0.right" timestamp="1653963747411">
-      <screen x="0" y="25" width="1792" height="1095" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029875" />
-    <state width="1878" height="407" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.980@0.25.1920.980" timestamp="1652884141408" />
-    <state width="1878" height="409" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508614266" />
-<<<<<<< HEAD
-    <state width="868" height="297" key="GridCell.Tab.0.right/0.0.1824.1080@0.0.1824.1080" timestamp="1653760638104" />
-    <state width="868" height="358" key="GridCell.Tab.1.bottom" timestamp="1653760256757">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state width="868" height="358" key="GridCell.Tab.1.bottom/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
-    <state width="868" height="358" key="GridCell.Tab.1.center" timestamp="1653760256757">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state width="868" height="358" key="GridCell.Tab.1.center/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
-    <state width="868" height="358" key="GridCell.Tab.1.left" timestamp="1653760256757">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state width="868" height="358" key="GridCell.Tab.1.left/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
-    <state width="868" height="358" key="GridCell.Tab.1.right" timestamp="1653760256757">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state width="868" height="358" key="GridCell.Tab.1.right/0.0.1824.1080@0.0.1824.1080" timestamp="1653760256757" />
-=======
-    <state width="1878" height="209" key="GridCell.Tab.0.right/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848816166" />
-    <state width="1750" height="378" key="GridCell.Tab.0.right/0.0.1792.1120@0.0.1792.1120" timestamp="1653962142935" />
-    <state width="1878" height="326" key="GridCell.Tab.0.right/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747411" />
-    <state width="1878" height="326" key="GridCell.Tab.1.bottom" timestamp="1653963747412">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.1.bottom/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
-    <state width="1878" height="326" key="GridCell.Tab.1.bottom/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811387" />
-    <state width="1878" height="326" key="GridCell.Tab.1.bottom/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747412" />
-    <state width="1878" height="326" key="GridCell.Tab.1.center" timestamp="1653963747412">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.1.center/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
-    <state width="1878" height="326" key="GridCell.Tab.1.center/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811386" />
-    <state width="1878" height="326" key="GridCell.Tab.1.center/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747412" />
-    <state width="1878" height="326" key="GridCell.Tab.1.left" timestamp="1653963747412">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.1.left/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
-    <state width="1878" height="326" key="GridCell.Tab.1.left/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811385" />
-    <state width="1878" height="326" key="GridCell.Tab.1.left/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747412" />
-    <state width="1878" height="326" key="GridCell.Tab.1.right" timestamp="1653963747412">
-      <screen x="0" y="25" width="1792" height="1095" />
-    </state>
-    <state width="1878" height="324" key="GridCell.Tab.1.right/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652891029876" />
-    <state width="1878" height="326" key="GridCell.Tab.1.right/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653848811386" />
-    <state width="1878" height="326" key="GridCell.Tab.1.right/0.25.1792.1095@0.25.1792.1095" timestamp="1653963747412" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-    <state x="469" y="151" key="SettingsEditor" timestamp="1651780628851">
-      <screen x="0" y="25" width="1920" height="978" />
-    </state>
-    <state x="469" y="151" key="SettingsEditor/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780628851" />
-    <state x="469" y="151" key="SettingsEditor/-1792.25.1792.1095/0.25.1920.981@0.25.1920.981" timestamp="1651508599214" />
-    <state x="757" y="298" key="chooseDestDirectoryDialog" timestamp="1653847330788">
-      <screen x="0" y="25" width="1920" height="984" />
-    </state>
-    <state x="757" y="296" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652889087185" />
-    <state x="757" y="298" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653847330788" />
-    <state x="740" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653847330835">
-      <screen x="0" y="25" width="1920" height="984" />
-    </state>
-<<<<<<< HEAD
-    <state x="757" y="296" key="chooseDestDirectoryDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181138" />
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog" timestamp="1653908879567">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state x="0" y="0" key="com.intellij.ide.util.TipDialog/0.0.1824.1080@0.0.1824.1080" timestamp="1653908879567" />
-    <state x="703" y="348" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1653758803745">
-      <screen x="0" y="0" width="1824" height="1080" />
-    </state>
-    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780181184" />
-    <state x="703" y="348" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1824.1080@0.0.1824.1080" timestamp="1653758803745" />
-=======
-    <state x="740" y="340" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652889087238" />
-    <state x="740" y="342" key="com.intellij.testIntegration.createTest.CreateTestDialog/-1792.25.1792.1095/0.25.1920.984@0.25.1920.984" timestamp="1653847330835" />
-    <state x="739" y="340" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog" timestamp="1652836690039">
-      <screen x="0" y="25" width="1920" height="978" />
-    </state>
-    <state x="739" y="340" key="org.jetbrains.kotlin.idea.testIntegration.KotlinCreateTestDialog/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1652836690039" />
->>>>>>> 90aae1aec880f1818785b832207614382ca5dd08
-    <state x="626" y="240" key="search.everywhere.popup" timestamp="1651780788907">
-      <screen x="0" y="25" width="1920" height="978" />
-    </state>
-    <state x="626" y="240" key="search.everywhere.popup/-1792.25.1792.1095/0.25.1920.978@0.25.1920.978" timestamp="1651780788907" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/TwoSum.kt</url>
+          <line>14</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/ValidAnagram.kt</url>
+          <line>19</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

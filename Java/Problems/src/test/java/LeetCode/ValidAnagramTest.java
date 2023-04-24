@@ -11,7 +11,6 @@ class ValidAnagramTest {
 
     ValidAnagram validAnagram = new ValidAnagram();
 
-
     @Test
     @DisplayName("Input: s = \"anagram\", t = \"nagaram   true")
     void anagram_and_nagaram_are_valid(){

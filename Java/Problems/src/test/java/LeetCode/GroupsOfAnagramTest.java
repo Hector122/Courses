@@ -33,9 +33,8 @@ class GroupsOfAnagramTest {
         expected.add(listTwo);
 
         GroupsOfAnagram groupsOfAnagram = new GroupsOfAnagram();
-        List<List<String>> actual = groupsOfAnagram.groupAnagrams(input);
-
-        assertEquals(expected, actual);
+        assertEquals(expected, groupsOfAnagram.groupAnagrams(input));
+        assertEquals(expected, groupsOfAnagram.groupAnagramsTwo(input));
     }
 
 }

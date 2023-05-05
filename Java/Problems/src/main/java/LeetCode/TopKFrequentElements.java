@@ -16,7 +16,6 @@ public class TopKFrequentElements {
             frequentHashMap.put(num, frequentHashMap.getOrDefault(num, 0) + 1);
         }
 
-
         // init heap 'the less frequent element first'
         Queue<Integer> minHeap = new PriorityQueue<>((n1, n2) -> frequentHashMap.get(n1) - frequentHashMap.get(n2));
 

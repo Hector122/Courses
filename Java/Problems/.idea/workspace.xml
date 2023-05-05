@@ -23,11 +23,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/GroupsOfAnagram.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TopKFrequentElements.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -92,7 +93,7 @@
       <recent name="Others" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.GroupsOfAnagramTest.testGroupOfAnagram_ShouldBeEqual">
+  <component name="RunManager" selected="Kotlin.TopKFrequentElementsKt">
     <configuration name="GroupsOfAnagramTest.testGroupOfAnagram_ShouldBeEqual" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
       <extension name="coverage">
@@ -109,10 +110,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="TopKFrequentElementsTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="LeetCode.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="LeetCode" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode.TopKFrequentElementsTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -128,16 +135,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ValidAnagramTest.anagram_and_nagaram_are_valid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="Problems.test" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ValidAnagramTest" />
-      <option name="METHOD_NAME" value="anagram_and_nagaram_are_valid" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="ValidAnagramTest.rat_and_cat_are_invalid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Problems.test" />
       <option name="PACKAGE_NAME" value="" />
@@ -148,13 +145,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TopKFrequentElementsKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TopKFrequentElementsKt" />
+      <module name="Problems.main" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Kotlin.TopKFrequentElementsKt" />
+        <item itemvalue="JUnit.TopKFrequentElementsTest" />
         <item itemvalue="JUnit.GroupsOfAnagramTest.testGroupOfAnagram_ShouldBeEqual" />
         <item itemvalue="JUnit.ValidAnagramTest.aacc_and_ccac_are_invalid" />
         <item itemvalue="JUnit.ValidAnagramTest.rat_and_cat_are_invalid" />
-        <item itemvalue="JUnit.ValidAnagramTest.anagram_and_nagaram_are_valid" />
-        <item itemvalue="JUnit.ValidAnagramTest" />
       </list>
     </recent_temporary>
   </component>
@@ -207,6 +211,11 @@
           <url>file://$PROJECT_DIR$/src/main/kotlin/ValidAnagram.kt</url>
           <line>19</line>
           <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="kotlin-line">
+          <url>file://$PROJECT_DIR$/src/main/kotlin/TopKFrequentElements.kt</url>
+          <line>7</line>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/main/java/LeetCode/GroupsOfAnagram.java</url>

@@ -161,7 +161,7 @@ fun Portfolio(data: List<String>) {
                     Modifier
                         .padding(8.dp)
                         .background(MaterialTheme.colorScheme.surface)
-                        .padding(16.dp)
+                        .padding(16.dp).background(color = Color.Red)
                 ) {
                     CreateImageProfile(modifier = Modifier.size(50.dp))
                     Column(

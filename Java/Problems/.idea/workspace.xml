@@ -23,12 +23,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/kotlin/TopKFrequentElements.kt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/LeetCode/TopKFrequentElements.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/LeetCode/TopKFrequentElements.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

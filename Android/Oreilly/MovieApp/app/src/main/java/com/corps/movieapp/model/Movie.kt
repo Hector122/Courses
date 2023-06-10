@@ -8,7 +8,7 @@ data class Movie(
     val actor: String,
     val plot: String,
     val poster: String,
-    val image: List<String>,
+    val images: List<String>,
     val rating: String,
     val title: String
 )
@@ -26,6 +26,8 @@ fun movieList(): List<Movie> {
             "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg",
             listOf(
                 "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg",
+                "https://m.media-amazon.com/images/I/71iDbsYyvfL._AC_SL1500_.jpg",
+                "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg",
                 "https://m.media-amazon.com/images/I/41kTVLeW1CL._AC_.jpg"
             ),
             "8.9",
@@ -41,7 +43,9 @@ fun movieList(): List<Movie> {
             "https://example.com/poster2.jpg",
             listOf(
                 "https://example.com/image2_1.jpg",
-                "https://example.com/image2_2.jpg"
+                "https://example.com/image2_2.jpg",
+                "https://example.com/image2_3.jpg",
+                "https://example.com/image2_4.jpg"
             ),
             "9.3",
             "The Shawshank Redemption"

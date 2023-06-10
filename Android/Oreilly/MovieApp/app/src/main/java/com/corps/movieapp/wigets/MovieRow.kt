@@ -5,6 +5,7 @@ import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
 import androidx.compose.foundation.layout.Row
 import androidx.compose.foundation.layout.fillMaxSize
+import androidx.compose.foundation.layout.fillMaxWidth
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
@@ -50,12 +51,10 @@ fun MovieRow(movie: Movie = movieList()[0], onItemClick: () -> Unit = {}) {
     var isExpanded by remember {
         mutableStateOf(false)
     }
-
-
     Card(
         modifier = Modifier
             .padding(4.dp)
-            .fillMaxSize()
+            .fillMaxWidth()
             .clickable {
                 onItemClick.invoke()
             },

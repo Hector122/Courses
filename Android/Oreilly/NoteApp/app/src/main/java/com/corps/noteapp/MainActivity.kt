@@ -6,17 +6,16 @@ import androidx.activity.compose.setContent
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
-import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
-import androidx.compose.runtime.mutableStateListOf
-import androidx.compose.runtime.remember
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
-import com.corps.noteapp.data.NotesDataSource
-import com.corps.noteapp.model.Note
+import androidx.lifecycle.viewmodel.compose.viewModel
 import com.corps.noteapp.screen.NoteScreen
+import com.corps.noteapp.screen.NoteViewModel
 import com.corps.noteapp.ui.theme.NoteAppTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -27,14 +26,7 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-
-                    val notes = remember {
-                        mutableStateListOf<Note>()
-                    }
-
-                    NoteScreen(notes = notes,
-                        onAddNote = { notes.add(it) },
-                        onRemoveNote = { notes.remove(it) })
+                    NotesApp()
                 }
             }
         }
@@ -46,6 +38,16 @@ class MainActivity : ComponentActivity() {
 @Composable
 fun GreetingPreview() {
     NoteAppTheme {
-        NoteScreen(NotesDataSource().getNotes(), {}, {})
+        //NoteScreen(NotesDataSource().getNotes(), {}, {})
     }
 }
+
+@Composable
+private fun NotesApp(noteViewModel: NoteViewModel = viewModel()) {
+    NoteScreen(notes = noteViewModel.noteList,
+        onAddNote = { noteViewModel.addNote(it) },
+        onRemoveNote = { noteViewModel.removeNote(it) })
+}
+
+
+

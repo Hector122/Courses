@@ -2,7 +2,7 @@ package com.corps.noteapp.data
 
 import com.corps.noteapp.model.Note
 
-class NotesDataSource {
+class NoteDataSource {
     fun getNotes(): List<Note> {
         val noteList = mutableListOf<Note>()
 

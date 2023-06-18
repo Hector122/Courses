@@ -36,6 +36,7 @@ import com.corps.noteapp.components.NoteButton
 import com.corps.noteapp.components.NoteInputText
 import com.corps.noteapp.model.Note
 import com.corps.noteapp.ui.theme.NoteAppTheme
+import com.corps.noteapp.util.fromDate
 import java.time.format.DateTimeFormatter
 
 @OptIn(ExperimentalMaterial3Api::class)
@@ -119,9 +120,7 @@ fun NoteRow(note: Note, onClick: () -> Unit) {
             Text(text = note.description, style = MaterialTheme.typography.bodySmall)
 
             Text(
-                text = note.entryDate.format(
-                    DateTimeFormatter.ofPattern("EEE, d MMM")
-                ), style = MaterialTheme.typography.labelSmall
+                text = fromDate(note.entryDate.time), style = MaterialTheme.typography.labelSmall
             )
         }
     }

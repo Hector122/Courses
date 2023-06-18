@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Surface
 import androidx.compose.runtime.Composable
+import androidx.compose.runtime.collectAsState
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.lifecycle.viewmodel.compose.viewModel
@@ -44,7 +45,9 @@ fun GreetingPreview() {
 
 @Composable
 private fun NotesApp(noteViewModel: NoteViewModel = viewModel()) {
-    NoteScreen(notes = noteViewModel.noteList,
+    val noteList = noteViewModel.noteList.collectAsState().value
+
+    NoteScreen(notes = noteList,
         onAddNote = { noteViewModel.addNote(it) },
         onRemoveNote = { noteViewModel.removeNote(it) })
 }

@@ -11,7 +11,9 @@ import androidx.compose.runtime.Composable
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.hilt.navigation.compose.hiltViewModel
+import com.corps.triviaapp.component.Questions
 import com.corps.triviaapp.screens.QuestionViewModel
+import com.corps.triviaapp.screens.TriviaHomeScreen
 import com.corps.triviaapp.ui.theme.TriviaAppTheme
 import dagger.hilt.android.AndroidEntryPoint
 
@@ -26,24 +28,12 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colorScheme.background
                 ) {
-                    TriviaHome()
+                    TriviaHomeScreen()
                 }
             }
         }
     }
 }
-
-@Composable
-fun TriviaHome(viewModel: QuestionViewModel = hiltViewModel()) {
-    Questions(viewModel)
-}
-
-@Composable
-fun Questions(viewModel: QuestionViewModel) {
-    val questions = viewModel.data.value.data?.toMutableList()
-    Log.d("TAG", "Questions: ${questions?.size}")
-}
-
 
 @Preview(showBackground = true)
 @Composable

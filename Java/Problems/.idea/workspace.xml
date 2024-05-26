@@ -23,10 +23,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/platzi-wallet" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/WeatherApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/navigation/WeatherNavigation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/navigation/WeatherScreens.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/screens/WeatherSplashScreen.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

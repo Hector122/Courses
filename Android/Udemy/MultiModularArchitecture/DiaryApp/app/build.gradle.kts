@@ -2,13 +2,13 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
 
-    alias(libs.plugins.compose.compiler)
+   // alias(libs.plugins.compose.compiler)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
 
-    alias(libs.plugins.gms.services)
+    //alias(libs.plugins.gms.services)
 
-    //alias(libs.plugins.realm.android)
+    alias(libs.plugins.io.realm)
 }
 
 android {
@@ -48,7 +48,7 @@ android {
         compose = true
     }
     composeOptions {
-        kotlinCompilerExtensionVersion = "1.5.1"
+        kotlinCompilerExtensionVersion = "1.5.5"
     }
     packaging {
         resources {
@@ -75,20 +75,22 @@ dependencies {
     debugImplementation(libs.androidx.ui.tooling)
     debugImplementation(libs.androidx.ui.test.manifest)
 
-//    //HIlt
-//    implementation(libs.hilt.android)
-//    //kapt(libs.hilt.compiler)
 
-//    // Dependency Injection
+    // Dependency Injection Hilt
     implementation(libs.hilt.navigation.compose)
     implementation(libs.hilt)
     ksp(libs.hilt.android)
 
     //implementation(libs.gms.googleServices)
 
-//
-//    //Coil
-//    implementation(libs.coil.compose)
+    //Coil
+    implementation(libs.coil.compose)
+
+    //Firebase
+    // ... other dependencies
+    //implementation(platform(libs.firebase.bom))
+    //implementation(libs.firebase.auth)
+    //implementation(libs.firebase.storage)
 
     //mongo DB
 

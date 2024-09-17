@@ -1,6 +1,6 @@
 [versions]
 agp = "8.5.2"
-kotlin = "2.0.20"
+kotlin = "1.9.20"
 coreKtx = "1.13.1"
 junit = "4.13.2"
 junitVersion = "1.2.1"
@@ -11,10 +11,12 @@ composeBom = "2024.09.01"
 
 hilt-navigation-compose = "1.2.0"
 hilt = "2.51.1"
-ksp = "2.0.20-1.0.24"
+ksp = "1.9.20-1.0.14"
 gms = "4.4.2"
 coil = "2.6.0"
-#realm = "10.15.1"
+realm = "1.16.0"
+
+firebase-bom = "32.2.3"
 
 [libraries]
 androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
@@ -44,17 +46,26 @@ gms-googleServices = { group = "com.google.gms", name = "google-services", versi
 coil-compose = { group = "io.coil-kt", name = "coil-compose", version.ref = "coil" }
 
 # Real
-#realm-android = { group = "io.realm.kotlin", name = "library-base", version.ref = "realm" }
+realm = { group = "io.realm.kotlin", name = "library-base", version.ref = "realm" }
+#If using Device Sync
+#realm-sync = { group = "io.realm.kotlin", name = "library-sync", version.ref = "realm" }
+#If using coroutines with the SDK
+#realm-coroutines = { group = "io.realm.kotlin", name = "kotlinx-coroutines-core", version.ref = "realm" }
 
+
+# Firebae
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebase-bom" }
+firebase-auth = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebase-bom" }
+firebase-storage = { group = "com.google.firebase", name = "firebase-storage", version.ref = "firebase-bom" }
 
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 jetbrains-kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
 
-compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
+#compose-compiler = { id = "org.jetbrains.kotlin.plugin.compose", version.ref = "kotlin" }
 hilt = { id = "com.google.dagger.hilt.android", version.ref = "hilt" }
 ksp = { id = "com.google.devtools.ksp", version.ref = "ksp" }
 
 gms-services = { id = "com.google.gms.google-services", version.ref = "gms" }
 
-#realm-android = { id = "io.realm.kotlin", version.ref = "realm" }
+io-realm = { id = "io.realm.kotlin", version.ref = "realm" }

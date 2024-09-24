@@ -94,4 +94,7 @@ dependencies {
 
     //mongo DB
 
+    // splash screen
+    implementation(libs.splashscreen)
+
 }

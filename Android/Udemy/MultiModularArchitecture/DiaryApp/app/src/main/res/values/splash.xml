@@ -5,7 +5,5 @@
         <item name="windowSplashScreenBackground">#F9FAEF</item>
         <item name="windowSplashScreenAnimatedIcon">@drawable/logo</item>
         <item name="postSplashScreenTheme">@style/Theme.DiaryApp</item>
-
     </style>
-
 </resources>

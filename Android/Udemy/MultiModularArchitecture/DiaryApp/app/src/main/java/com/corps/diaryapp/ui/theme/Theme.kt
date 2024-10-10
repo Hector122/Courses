@@ -293,8 +293,6 @@ fun DiaryAppTheme(
 
         darkTheme -> darkScheme
         else -> lightScheme
-//        darkTheme -> DarkColorScheme
-//        else -> LightColorScheme
     }
 
     MaterialTheme(

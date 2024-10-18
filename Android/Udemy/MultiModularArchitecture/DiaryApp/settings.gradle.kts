@@ -9,6 +9,8 @@ pluginManagement {
         }
         mavenCentral()
         gradlePluginPortal()
+
+        maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
     }
 }
 dependencyResolutionManagement {
@@ -16,8 +18,10 @@ dependencyResolutionManagement {
     repositories {
         google()
         mavenCentral()
+
         // for the two custom project.
-        //maven { url = uri("http://jitpack.io") }
+        maven(url = "https://jitpack.io")
+        maven { url = uri("https://oss.sonatype.org/content/repositories/snapshots") }
     }
 }
 

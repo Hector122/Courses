@@ -2,13 +2,14 @@ plugins {
     alias(libs.plugins.android.application)
     alias(libs.plugins.jetbrains.kotlin.android)
 
-   // alias(libs.plugins.compose.compiler)
     alias(libs.plugins.hilt)
     alias(libs.plugins.ksp)
 
-    //alias(libs.plugins.gms.services)
-
-    alias(libs.plugins.io.realm)
+    alias(libs.plugins.google.services)
+   // alias(libs.plugins.google.ksp)
+    //alias(libs.plugins.jetbrains.kotlin.compose)
+//    id 'kotlin-kapt'
+    id ("io.realm.kotlin")
 }
 
 android {
@@ -17,7 +18,7 @@ android {
 
     defaultConfig {
         applicationId = "com.corps.diaryapp"
-        minSdk = 24
+        minSdk = 23
         targetSdk = 34
         versionCode = 1
         versionName = "1.0"
@@ -87,14 +88,38 @@ dependencies {
     implementation(libs.coil.compose)
 
     //Firebase
-    // ... other dependencies
-    //implementation(platform(libs.firebase.bom))
-    //implementation(libs.firebase.auth)
-    //implementation(libs.firebase.storage)
+    // Firebase
+    implementation(libs.firebase.auth.ktx)
+    implementation(libs.firebase.storage.ktx)
 
-    //mongo DB
+    // Room components
+    implementation(libs.androidx.room.runtime)
+    ksp(libs.androidx.room.compiler)
+    implementation(libs.androidx.room.ktx)
+
+    // Mongo DB Realm
+    implementation(libs.kotlinx.coroutines.core)
+    implementation(libs.library.sync)
 
     // splash screen
     implementation(libs.splashscreen)
+
+    // Date-Time Picker
+    implementation(libs.core)
+
+    // CALENDAR
+    implementation(libs.calendar)
+
+    // CLOCK
+    implementation(libs.clock)
+
+    // Message Bar Compose
+    implementation(libs.messagebarcompose)
+
+    // One tap compose
+    implementation(libs.onetapcompose)
+
+    // Desugar JDK
+    coreLibraryDesugaring(libs.desugar.jdk.libs)
 
 }

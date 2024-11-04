@@ -15,6 +15,7 @@ export const dummyData: Todo[] = [
     },
     { id: 3, title: 'Bob Johnson 🚀',
         completed: false, 
-        email: 'bob@example.com' },
+        email: 'bob@example.com' 
+    },
 ]
 

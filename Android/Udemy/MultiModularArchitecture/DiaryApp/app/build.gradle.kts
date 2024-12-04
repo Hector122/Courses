@@ -1,15 +1,13 @@
 plugins {
     alias(libs.plugins.android.application)
-    alias(libs.plugins.jetbrains.kotlin.android)
-
-    alias(libs.plugins.hilt)
-    alias(libs.plugins.ksp)
-
+    //alias(libs.plugins.android.library)
+    //alias(libs.plugins.jetbrains.kotlin)
+    alias(libs.plugins.dagger.hilt)
     alias(libs.plugins.google.services)
-   // alias(libs.plugins.google.ksp)
-    //alias(libs.plugins.jetbrains.kotlin.compose)
+    alias(libs.plugins.google.ksp)
+    alias(libs.plugins.jetbrains.kotlin.compose)
 //    id 'kotlin-kapt'
-    id ("io.realm.kotlin")
+    //id 'io.realm.kotlin'
 }
 
 android {
@@ -39,8 +37,8 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
         jvmTarget = "1.8"
@@ -59,67 +57,67 @@ android {
 }
 
 dependencies {
+        implementation(libs.androidx.core.ktx)
+        implementation(libs.androidx.lifecycle.runtime.ktx)
+        implementation(libs.androidx.activity.compose)
+        implementation(libs.androidx.ui)
+        implementation(libs.androidx.ui.tooling.preview)
+        implementation(libs.androidx.material3)
+        testImplementation(libs.junit)
+        androidTestImplementation(libs.androidx.junit)
+        androidTestImplementation(libs.androidx.espresso.core)
+        androidTestImplementation(libs.androidx.ui.test.junit4)
+        debugImplementation(libs.androidx.ui.tooling)
+        debugImplementation(libs.androidx.ui.test.manifest)
 
-    implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.lifecycle.runtime.ktx)
-    implementation(libs.androidx.activity.compose)
-    implementation(platform(libs.androidx.compose.bom))
-    implementation(libs.androidx.ui)
-    implementation(libs.androidx.ui.graphics)
-    implementation(libs.androidx.ui.tooling.preview)
-    implementation(libs.androidx.material3)
-    testImplementation(libs.junit)
-    androidTestImplementation(libs.androidx.junit)
-    androidTestImplementation(libs.androidx.espresso.core)
-    androidTestImplementation(platform(libs.androidx.compose.bom))
-    androidTestImplementation(libs.androidx.ui.test.junit4)
-    debugImplementation(libs.androidx.ui.tooling)
-    debugImplementation(libs.androidx.ui.test.manifest)
+        // Compose Navigation
+        implementation(libs.androidx.navigation.compose)
 
+        // Firebase
+        implementation(libs.firebase.auth.ktx)
+        implementation(libs.firebase.storage.ktx)
 
-    // Dependency Injection Hilt
-    implementation(libs.hilt.navigation.compose)
-    implementation(libs.hilt)
-    ksp(libs.hilt.android)
+        // Room components
+        implementation(libs.androidx.room.runtime)
+        ksp(libs.androidx.room.compiler)
+        implementation(libs.androidx.room.ktx)
 
-    //implementation(libs.gms.googleServices)
+        // Runtime Compose
+        implementation(libs.androidx.lifecycle.runtime.compose)
 
-    //Coil
-    implementation(libs.coil.compose)
+        // Splash API
+        implementation(libs.androidx.core.splashscreen)
 
-    //Firebase
-    // Firebase
-    implementation(libs.firebase.auth.ktx)
-    implementation(libs.firebase.storage.ktx)
+        // MongoDB Realm
+        implementation(libs.kotlinx.coroutines.core)
+        implementation(libs.library.sync)
 
-    // Room components
-    implementation(libs.androidx.room.runtime)
-    ksp(libs.androidx.room.compiler)
-    implementation(libs.androidx.room.ktx)
+        // Dagger Hilt
+        implementation(libs.hilt.android)
+        ksp(libs.hilt.compiler)
+        implementation(libs.androidx.hilt.navigation.compose)
 
-    // Mongo DB Realm
-    implementation(libs.kotlinx.coroutines.core)
-    implementation(libs.library.sync)
+        // Coil
+        implementation(libs.coil.compose)
 
-    // splash screen
-    implementation(libs.splashscreen)
+        // Pager - Accompanist (Deprecated)
+        // implementation "com.google.accompanist:accompanist-pager:0.27.0"
 
-    // Date-Time Picker
-    implementation(libs.core)
+        // Date-Time Picker
+        implementation(libs.core)
 
-    // CALENDAR
-    implementation(libs.calendar)
+        // Calendar
+        implementation(libs.calendar)
 
-    // CLOCK
-    implementation(libs.clock)
+        // Clock
+        implementation(libs.clock)
 
-    // Message Bar Compose
-    implementation(libs.messagebarcompose)
+        // Message Bar Compose
+        implementation(libs.messagebarcompose)
 
-    // One tap compose
-    implementation(libs.onetapcompose)
+        // One-Tap Compose
+        implementation(libs.onetapcompose)
 
-    // Desugar JDK
-    coreLibraryDesugaring(libs.desugar.jdk.libs)
-
+        // Desugar JDK
+        coreLibraryDesugaring(libs.desugar.jdk.libs)
 }

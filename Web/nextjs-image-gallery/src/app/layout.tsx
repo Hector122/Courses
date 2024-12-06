@@ -1,6 +1,9 @@
+import "bootstrap/dist/css/bootstrap.min.css";
+
 import type { Metadata } from "next";
 import localFont from "next/font/local";
 import "./globals.css";
+import { Container } from "@/components/bootstrap";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -27,7 +30,10 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={`${geistSans.variable} ${geistMono.variable}`}>
-        {children}
+        <div id="root" className="flex flex-col min-h-screen">
+          This div is shared across layouts
+        </div>
+        <Container>{children}</Container>
       </body>
     </html>
   );

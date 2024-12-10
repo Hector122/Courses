@@ -23,13 +23,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="54d60d85-bd36-4690-a3f2-a29009b51d40" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/WeatherApplication.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/navigation/WeatherNavigation.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/navigation/WeatherScreens.kt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../../Android/Oreilly/WeatherForecast/app/src/main/java/com/corps/weatherforecast/screens/WeatherSplashScreen.kt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/checksums.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/md5-checksums.bin" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/checksums/sha1-checksums.bin" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-notifications" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-notifications" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Udemy/ArchitectureMasterclass/android-architecture-course" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Udemy/ArchitectureMasterclass/android-architecture-course" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Android/Udemy/CoroutineAndFlows/Kotlin-Coroutines-and-Flow-UseCases-on-Android" beforeDir="false" afterPath="$PROJECT_DIR$/../../Android/Udemy/CoroutineAndFlows/Kotlin-Coroutines-and-Flow-UseCases-on-Android" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/src/app/layout.tsx" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/src/app/layout.tsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/tsconfig.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../Web/nextjs-image-gallery/tsconfig.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

@@ -52,3 +52,6 @@
 [submodule "Android/Nanodegree/andfun-kotlin-gdg-finder"]
 	path = Android/Nanodegree/andfun-kotlin-gdg-finder
 	url = git@github.com:Hector122/andfun-kotlin-gdg-finder.git
+[submodule "Web/nextjs-dashboard"]
+	path = Web/nextjs-dashboard
+	url = git@github.com:Hector122/nextjs-dashboard.git

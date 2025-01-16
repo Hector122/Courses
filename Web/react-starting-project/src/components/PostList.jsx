@@ -1,37 +1,43 @@
+import { useState } from "react";
 import NewPost from "./NewPost";
 import Post from "./Post";
-import classes from "./PostList.module.css";
-import { useState } from "react";
 import Modal from "./Modal";
+import classes from "./PostList.module.css";
 
 function PostList({ isModalVisible, onCloseModal }) {
-  const [enterBody, setEnterBody] = useState("");
-  const [enterAuth, setEnterAuth] = useState("");
+  const [posts, setPosts] = useState([]);
 
-  function changeBodyEventHandler(event) {
-    setEnterBody(event.target.value);
-  }
+  function addPostHandler(postData) {
+    fetch("http://localhost:8080/posts", {
+      method: "POST",
+      body: JSON.stringify(postData),
+      headers: {
+        "Content-Type": "application/json",
+      },
+    });
 
-  function changeAuthEventHandler(event) {
-    setEnterAuth(event.target.value);
+    setPosts((existingPosts) => [postData, ...existingPosts]);
   }
 
   return (
     <>
       {isModalVisible && (
         <Modal onClose={onCloseModal}>
-          <NewPost
-            onEnterBody={changeBodyEventHandler}
-            onEnterAuth={changeAuthEventHandler}
-          />
+          <NewPost onCancel={onCloseModal} onAddPost={addPostHandler} />
         </Modal>
       )}
-
       <ul className={classes.posts}>
-        <Post author={enterAuth} body={enterBody} />
-        <Post author="Alex" body="No say that  is the new way to go" />
-        <Post author="Alex" body="No say that  is the new way to go" />
+        {posts.length > 0 &&
+          posts.map((post) => (
+            <Post key={post.body} author={post.author} body={post.body} />
+          ))}
       </ul>
+      {posts.length === 0 && (
+        <div style={{ textAlign: "center", color: "white" }}>
+          <h2>No posts yet.</h2>
+          <p>Please add one</p>
+        </div>
+      )}
     </>
   );
 }

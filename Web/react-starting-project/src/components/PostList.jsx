@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
-import NewPost from "./NewPost";
+import NewPost from "../router/NewPost";
 import Post from "./Post";
 import Modal from "./Modal";
 import classes from "./PostList.module.css";
 
-function PostList({ isModalVisible, onCloseModal }) {
+function PostList() {
   const [posts, setPosts] = useState([]);
   const [isFetching, setFetching] = useState(false);
 
@@ -35,11 +35,6 @@ function PostList({ isModalVisible, onCloseModal }) {
 
   return (
     <>
-      {isModalVisible && (
-        <Modal onClose={onCloseModal}>
-          <NewPost onCancel={onCloseModal} onAddPost={addPostHandler} />
-        </Modal>
-      )}
       <ul className={classes.posts}>
         {!isFetching &&
           posts.length > 0 &&

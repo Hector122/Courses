@@ -1,7 +1,19 @@
 import Link from "next/link";
 import classes from "./page.module.css";
+import { getMeals } from "../../lib/meals";
+import MealsGrid from "@/components/meals/meal-grid";
+import { Suspense } from "react";
 
-export default function MealsPage() {
+async function Meals() {
+  const meals = await getMeals();
+  console.log(meals);
+
+  // throw new Error("An error occurred feaching meals");
+
+  return <MealsGrid meals={meals} />;
+}
+
+export default async function MealsPage() {
   return (
     <>
       <header className={classes.header}>
@@ -18,7 +30,11 @@ export default function MealsPage() {
         </p>
       </header>
       <main className={classes.main}>
-        <h2>Meals</h2>
+        <Suspense
+          fallback={<p className={classes.loading}>Fetching Meals ...</p>}
+        >
+          <Meals />
+        </Suspense>
       </main>
     </>
   );

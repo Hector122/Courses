@@ -6,9 +6,7 @@ import { Suspense } from "react";
 
 async function Meals() {
   const meals = await getMeals();
-  console.log(meals);
-
-  // throw new Error("An error occurred feaching meals");
+  console.log("Meals data:", meals); // Add this line to debug
 
   return <MealsGrid meals={meals} />;
 }
@@ -29,7 +27,7 @@ export default async function MealsPage() {
           <Link href="/meals/share">Share Your Favorite Recipe</Link>
         </p>
       </header>
-      <main className={classes.main}>
+      <main>
         <Suspense
           fallback={<p className={classes.loading}>Fetching Meals ...</p>}
         >

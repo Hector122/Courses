@@ -1,0 +1,10 @@
+.grid {
+  width: 90%;
+  max-width: 1500px;
+  margin: 2rem auto;
+  display: grid !important;
+  grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+  gap: 2rem;
+  padding: 1rem;
+  list-style: none;
+}

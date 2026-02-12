@@ -1,3 +1,5 @@
+package Basic
+
 fun main() {
 
     //val and var

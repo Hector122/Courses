@@ -1,0 +1,36 @@
+# Gradle
+.gradle/
+/build/
+/app/build/
+
+# Local properties
+/local.properties
+
+# Keystore files
+*.jks
+*.keystore
+
+# IDE files
+*.iml
+.idea/
+
+# Binaries
+*.apk
+*.aab
+*.ap_
+*.apks
+*.jar
+*.aar
+*.dex
+
+# C/C++
+.cxx/
+.externalNativeBuild/
+
+# Other
+/captures/
+*.log
+.DS_Store
+google-services.json
+*.hprof
+*.snapshot

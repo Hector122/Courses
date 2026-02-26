@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="VcsDirectoryMappings">
+    <mapping directory="$PROJECT_DIR$/../.." vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-dessert-pusher" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-gdg-finder" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-guess-it" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-mars-real-estate" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/andfun-kotlin-sleep-tracker-with-recyclerview" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Nanodegree/android-kotlin-notifications" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../../Android/Platzi/curso-clean-architecture-platzi" vcs="Git" />
+  </component>
+</project>

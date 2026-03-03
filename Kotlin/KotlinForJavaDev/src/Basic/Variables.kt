@@ -6,6 +6,7 @@ fun main() {
 
     var variable = "Something"
     variable = "another Value"
+
     val value = variable
 
     println(value)

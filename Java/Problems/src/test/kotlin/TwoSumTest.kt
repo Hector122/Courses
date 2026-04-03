@@ -32,7 +32,7 @@ class TwoSumTest {
 
     @Test
     @DisplayName("Input: nums = [3,3], target = 6 ")
-    fun Example_one(){
+    fun example_three(){
         val nums = intArrayOf(2,7,11,15)
         val target = 9
         val result = intArrayOf(0,1)

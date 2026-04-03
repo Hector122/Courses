@@ -1,7 +1,7 @@
 package LeetCode;
 
 /**
- * https://leetcode.com/problems/binary-search/
+ * <a href="https://leetcode.com/problems/binary-search/">...</a>
  */
 public class BinarySearch {
     public int search(int[] nums, int target) {

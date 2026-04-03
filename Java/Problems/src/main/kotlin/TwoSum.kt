@@ -1,3 +1,5 @@
+import java.util.HashMap
+
 class TwoSum {
     //https://leetcode.com/problems/two-sum/
 

@@ -3,21 +3,20 @@ package nl.jovmit.tdd
 import com.google.common.truth.Truth.assertThat
 import org.junit.jupiter.api.Test
 
+
 class TestDoubles {
 
     interface EmailValidator {
-        fun validate(email: String): Boolean
+        fun validator(email: String): Boolean
     }
 
-    class AuthorizationSystem(
-        private val emailValidator: EmailValidator
-    ) {
+    class AuthorizationSystem(private val emailValidator: EmailValidator) {
         fun authorizedUsersCount(): Int {
             return 0
         }
 
         fun authorize(email: String, password: String): Boolean {
-            if (emailValidator.validate(email)) {
+            if (emailValidator.validator(email)) {
                 return email.isNotBlank() && password.isNotBlank()
             }
             return false
@@ -34,64 +33,43 @@ class TestDoubles {
     }
 
     @Test
-    fun successfulAuthorization() {
+    fun successfullyAuthorization() {
         val email = "an email"
         val password = "a password"
-        val emailValidator = PresetEmailValidator(listOf(email))
+        val emailValidator = AcceptingEmailValidationSpy()
         val system = AuthorizationSystem(emailValidator)
 
         val authorizationResult = system.authorize(email, password)
 
         assertThat(authorizationResult).isTrue()
-    }
-
-    class PresetEmailValidator(
-        private val validEmails: List<String>
-    ) : EmailValidator {
-        override fun validate(email: String): Boolean {
-            return validEmails.contains(email)
-        }
-    }
-
-    class AcceptingEmailValidationMock : EmailValidator {
-        private var validationCallCount = 0
-        override fun validate(email: String): Boolean {
-            validationCallCount++
-            return true
-        }
-
-        fun verify(timesCalled: Int) {
-            if (timesCalled != validationCallCount) {
-                throw AssertionError(
-                    "Incorrect count of calls to validate." +
-                            "Expected: $timesCalled, but was $validationCallCount"
-                )
-            }
-        }
+        assertThat(emailValidator.validationWasCalled).isTrue()
     }
 
     class AcceptingEmailValidationSpy : EmailValidator {
 
         var validationWasCalled = false
 
-        override fun validate(email: String): Boolean {
+        override fun validator(email: String): Boolean {
             validationWasCalled = true
             return true
         }
+
     }
 
+    //Stub test double
     class AcceptingEmailValidator : EmailValidator {
-        override fun validate(email: String): Boolean {
+        override fun validator(email: String): Boolean {
             return true
         }
     }
 
     class DummyEmailValidator : EmailValidator {
-        override fun validate(email: String): Boolean {
+        override fun validator(email: String): Boolean {
             TODO("Not yet implemented")
         }
     }
 }
+
 
 
 

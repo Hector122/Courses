@@ -9,13 +9,20 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "react": "^19.0.0",
-    "react-dom": "^19.0.0",
-    "next": "16.1.5"
+    "react": "^19.2.1",
+    "react-dom": "^19.2.1",
+    "next": "^16.2.7"
   },
   "devDependencies": {
     "eslint": "^9",
-    "eslint-config-next": "15.1.2",
+    "eslint-config-next": "^16.2.7",
     "@eslint/eslintrc": "^3"
+  },
+  "overrides": {
+    "flatted": "^3.4.2",
+    "picomatch": "^2.3.2",
+    "postcss": "^8.5.10",
+    "glob": "^10.5.0",
+    "minimatch": "^9.0.7"
   }
 }
